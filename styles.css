@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: rgb(55, 55, 55);
+    color: rgb(235, 235, 235);
+}
+
+button {
+    color: rgb(235, 235, 235);
+    background-color: rgb(55, 55, 55);
+    border-color: rgb(235, 235, 235);
+}
+
+#about-section {
+    padding: 3%;
+}
+
+#info {
+    float: right;
+    text-align: left;
+    padding-left: 10%;
+}
+
+#headshot {
+    width: 30%;
+    height: 30%;
+    float: left;
+    padding-right: 10%;
+}
