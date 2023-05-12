@@ -1,7 +1,7 @@
 body {
     text-align: center;
-    background-color: rgb(55, 55, 55);
-    color: rgb(235, 235, 235);
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
 }
 
 button {
@@ -10,19 +10,40 @@ button {
     border-color: rgb(235, 235, 235);
 }
 
+#header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
 #about-section {
-    padding: 3%;
+    padding: 2%;
 }
 
 #info {
     float: right;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 #headshot {
     width: 30%;
     height: 30%;
     float: left;
-    padding-right: 10%;
+    padding-right: 5%;
+}
+
+#shufflebite {
+    padding-top: 1%;
+}
+
+#robot {
+    height: 12%;
+    width: 12%;
+    padding-top: 1%;
+}
+
+#guess-game {
+    padding-top: 1%;
 }

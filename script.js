@@ -2,6 +2,7 @@ const about_button = document.getElementById("about");
 const projects_button = document.getElementById("projects");
 const linkedin_button = document.getElementById("linkedin");
 const github_button = document.getElementById("github");
+const resume_button = document.getElementById("resume");
 
 const onAboutButtonClick = function () {
     window.location.href = 'index.html';
@@ -19,7 +20,12 @@ const onGitHubButtonClick = function () {
     window.location = 'https://github.com/andrew-valentin';
 };
 
+const onResumeButtonClick = function () {
+    window.location = 'https://drive.google.com/file/d/1PWiI96oZQusF2rveUzog1a2D4V_D6V5e/view?usp=sharing';
+};
+
 about_button.addEventListener("click", onAboutButtonClick);
 projects_button.addEventListener("click", onProjectsButtonClick);
 linkedin_button.addEventListener("click", onLinkedInButtonClick);
 github_button.addEventListener("click", onGitHubButtonClick)
+resume_button.addEventListener("click", onResumeButtonClick)

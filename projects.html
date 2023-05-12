@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <title>Andrew Valentin</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script type="module" src="index.js"></script>
+        <script type="module" src="script.js"></script>
     </head>
     <body>
         <h1>Andrew Valentin</h1>
@@ -14,19 +14,25 @@
             <button id="projects">Projects</button>
             <button id="linkedin">LinkedIn</button>
             <button id="github">GitHub</button>
+            <button id="resume">Resume</button>
         </div>
 
         <div id="projects-section">
-            <img id="shufflebite"> <!-- insert image -->
-            <h2>ShuffleBite Mobile App and Website</h2>
-            <p>Talk about ShuffleBit here</br></p>
+            <img id="shufflebite" src="shuffle_bite_small.png">
+            <h2><a href="https://youtu.be/4rXso9oeVNQ">ShuffleBite</a> <a href="https://github.com/andrew-valentin/ShuffleBiteApp">Mobile App</a> and <a href="https://github.com/ShuffleBite/ShuffleBite.github.io">Website</a></h2>
+            <p>As the team lead and full-stack developer, I oversaw the development of ShuffleBite, an app and website that helps</br>
+               users find random restaurants. The project was created primarily using React-Native and JavaScript and utilizes the Yelp API</br>
+               to fetch restaurant information. Bootstrap was used for the front-end and node.js was utilized in order to implement a proxy</br>
+               server used by the website for API calls.</br></p>
 
-            <img id="robot"> <!-- insert image -->
-            <h2>Line Following and Object Detecting Robot</h2>
-            <p>Talk about da bot here</br></p>
+            <img id="robot" src="bot_front.png">
+            <h2><a href="https://youtu.be/XOi2ZkBN5q8">Line Following and Object Detecting Robot</a></h2>
+            <p>Using a Raspberry Pi Pico, I developed a line following robot that also used object detection in order to avoid</br>
+               collisions utilizing a variety of sensors. The entire program was made using Python and external libraries that allowed</br>
+               me to utilize the hardware.</br></p>
 
-            <img id="guess-game"> <!-- insert image -->
-            <h2>Word Guess Game</h2>
+            <img id="guess-game" src="wordguess.png">
+            <h2><a href="https://github.com/andrew-valentin/WordGuess">Word Guess Game</a></h2>
             <p>Talk about the cool python ini project here</p>
         </div>
     </body>
