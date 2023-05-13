@@ -6,17 +6,28 @@
         <title>Andrew Valentin</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <script type="module" src="script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     </head>
     <body>
-        <h1>Andrew Valentin</h1>
-        <div id="buttons">
-            <button id="about">About</button>
-            <button id="projects">Projects</button>
-            <button id="linkedin">LinkedIn</button>
-            <button id="github">GitHub</button>
-            <button id="resume">Resume</button>
-        </div>
+        <div id="header">
+            <h1 id="name">Andrew Valentin</h1>
 
+            <div id="buttons" class="btn-group btn-group-justified">
+                <div class="btn-group">
+                    <button id="about" class="btn btn-primary">About</button>
+                </div>
+                <div class="btn-group">
+                    <button id="projects" class="btn btn-primary">Projects</button>
+                </div>
+                <a href="https://www.linkedin.com/in/andrew-valentin-profile/" id="linkedin" class="btn btn-primary">LinkedIn</a>
+                <a href="https://github.com/andrew-valentin" id="github" class="btn btn-primary">GitHub</a>
+                <a href="https://drive.google.com/file/d/1PWiI96oZQusF2rveUzog1a2D4V_D6V5e/view?usp=sharing" id="resume" class="btn btn-primary">Resume</a>
+            </div>
+        </div>
+    
         <div id="projects-section">
             <img id="shufflebite" src="shuffle_bite_small.png">
             <h2><a href="https://youtu.be/4rXso9oeVNQ">ShuffleBite</a> <a href="https://github.com/andrew-valentin/ShuffleBiteApp">Mobile App</a> and <a href="https://github.com/ShuffleBite/ShuffleBite.github.io">Website</a></h2>
