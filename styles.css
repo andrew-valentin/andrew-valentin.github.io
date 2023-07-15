@@ -34,7 +34,7 @@ body {
 #headshot {
     width: 30%;
     height: 30%;
-    float: left;
+    float: right;
     border: 5px solid rgb(35, 35, 35);
     margin-right: 5%;
 }
