@@ -46,6 +46,12 @@ body {
     padding-left: 5%;
 }
 
+#daily-danny {
+    height: 20%;
+    width: 20%;
+    padding-top: 1%;
+}
+
 #shufflebite {
     padding-top: 1%
 }
