@@ -5,29 +5,49 @@
         <meta charset="utf-8">
         <title>Andrew Valentin</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script type="module" src="index.js"></script>
+        <script type="module" src="script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     </head>
     <body>
-        <h1>Andrew Valentin</h1>
-        <div id="buttons">
-            <button id="about">About</button>
-            <button id="projects">Projects</button>
-            <button id="linkedin">LinkedIn</button>
-            <button id="github">GitHub</button>
+        <div id="header">
+            <h1 id="name">Andrew Valentin</h1>
+
+            <div id="buttons" class="btn-group btn-group-justified">
+                <div class="btn-group">
+                    <button id="about" class="btn btn-primary">About</button>
+                </div>
+                <div class="btn-group">
+                    <button id="projects" class="btn btn-primary">Projects</button>
+                </div>
+                <a href="https://www.linkedin.com/in/andrew-valentin-profile/" id="linkedin" class="btn btn-primary">LinkedIn</a>
+                <a href="https://github.com/andrew-valentin" id="github" class="btn btn-primary">GitHub</a>
+                <a href="https://drive.google.com/file/d/1PWiI96oZQusF2rveUzog1a2D4V_D6V5e/view?usp=sharing" id="resume" class="btn btn-primary">Resume</a>
+            </div>
         </div>
-
+    
         <div id="projects-section">
-            <img id="shufflebite"> <!-- insert image -->
-            <h2>ShuffleBite Mobile App and Website</h2>
-            <p>Talk about ShuffleBit here</br></p>
+            <img id="shufflebite" src="shuffle_bite_small.png">
+            <h2><a href="https://youtu.be/4rXso9oeVNQ">ShuffleBite</a> <a href="https://github.com/andrew-valentin/ShuffleBiteApp">Mobile App</a> and <a href="https://github.com/ShuffleBite/ShuffleBite.github.io">Website</a></h2>
+            <p>As the team lead and full-stack developer, I oversaw the development of ShuffleBite, an app and website that helps</br>
+               users find random restaurants. The project was created primarily using React-Native and JavaScript and utilizes the Yelp API</br>
+               to fetch restaurant information. Bootstrap was used for the front-end and node.js was utilized in order to implement a proxy</br>
+               server used by the website for API calls.</br></p>
 
-            <img id="robot"> <!-- insert image -->
-            <h2>Line Following and Object Detecting Robot</h2>
-            <p>Talk about da bot here</br></p>
+            <img id="robot" src="bot_front.png">
+            <h2><a href="https://youtu.be/XOi2ZkBN5q8">Line Following and Object Detecting Robot</a></h2>
+            <p>Using a Raspberry Pi Pico, I developed a line following robot that also used object detection in order to avoid</br>
+               collisions utilizing a variety of sensors. The entire program was made using Python and external libraries that allowed</br>
+               me to utilize the hardware.</br></p>
 
-            <img id="guess-game"> <!-- insert image -->
-            <h2>Word Guess Game</h2>
-            <p>Talk about the cool python ini project here</p>
+            <img id="guess-game" src="wordguess.png">
+            <h2><a href="https://github.com/andrew-valentin/WordGuess">Word Guess Game</a></h2>
+            <p>This command line game was made using Python, a random word API, and a dictionary API. It improves upon previously</br>
+               created word guessing games by introducing a wider variety of word choices with random lengths, which are all collected</br>
+               from the random word API. The dictionary API is then used to verify inputs, bringing everything together to make a fun,</br>
+               yet challenging, game that elevates the user experience.</p>
         </div>
     </body>
 </html>
