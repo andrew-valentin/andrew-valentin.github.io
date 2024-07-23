@@ -47,10 +47,14 @@ body {
 }
 
 #gan {
+    height: 35%;
+    width: 35%;
     padding-top: 1%
 }
 
 #imagerectification {
+    height: 25%;
+    width: 25%;
     padding-top: 1%
 }
 
