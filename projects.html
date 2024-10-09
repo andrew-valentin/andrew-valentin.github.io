@@ -29,6 +29,22 @@
         </div>
     
         <div id="projects-section">
+            <img id="coin" src="coincounter.jpg">
+            <h2><a href="https://github.com/jaysprogram/CoinSum">Automatic Coin Counter</a></h2>
+            <p>This mobile app was made using React-Native and Expo Camera. YOLOv11 was used to implement object detection for detecting different coins</br>
+               and classifying them. It was trained using a US coing dataset in a variety of different settings in order to produce the best results.</br>
+               In order to connect the model to the frontend for getting the number of coins in the image, a proxy server was set up using Flask, which</br>
+               allowed the frontend in React-Native to communicate with the model written in Python.</br></p>
+
+            <img id="linguistify" src="Linguistify.png">
+            <h2><a href="https://linguistify.co">Linguistify.co</a></h2>
+            <p>This web app uses the power of AI to help new language learners feel more confident in their ability to pronounce new languages</br>
+               and connects people through the power of conversation. The backend was implemented in two parts: speech pronunciation assessment and</br>
+               speech pronunciation feedback. The speech pronunciation assessment was done using Microsoft Azure's Speech SDK and the results produced</br>
+               by the pronunciation assessment API were fed into the Groq API, which allowed us to leverage Groq's efficient LLMs to get feeback quickly.</br>
+               The frontend was created using Streamlit and the Google Cloud Text-to-Speech API was used to provide audio references for users. A docker</br>
+               image was then deployed to a container on Google Cloud, where it is currently hosted, allowing for PC and mobile use on the web.</br></p>
+
             <img id="gan" src="gan.png">
             <h2><a href="https://github.com/andrew-valentin/HumanFaceImageGenerator">Human Face Image Generator</a></h2>
             <p>Trained using the Large-scale CelebFaces Attributes (CelebA) Dataset, this model improves upon a baseline by generating</br>
