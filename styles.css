@@ -46,6 +46,18 @@ body {
     padding-left: 5%;
 }
 
+#coin {
+    height: 20%;
+    width: 20%;
+    padding-top: 1%
+}
+
+#linguistify {
+    height: 20%;
+    width: 20%;
+    padding-top: 1%
+}
+
 #gan {
     height: 35%;
     width: 35%;
