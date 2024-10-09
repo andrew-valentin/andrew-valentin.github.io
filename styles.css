@@ -46,6 +46,24 @@ body {
     padding-left: 5%;
 }
 
+#gan {
+    height: 35%;
+    width: 35%;
+    padding-top: 1%
+}
+
+#imagerectification {
+    height: 25%;
+    width: 25%;
+    padding-top: 1%
+}
+
+#dailydanny {
+    height: 10%;
+    width: 10%;
+    padding-top: 1%;
+}
+
 #shufflebite {
     padding-top: 1%
 }
